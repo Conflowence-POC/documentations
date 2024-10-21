@@ -1,0 +1,232 @@
+<mxfile host="Electron" modified="2024-06-03T18:43:57.623Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="p4HoBinrIiWbR5Wd1P-c" version="21.6.5" type="device" pages="2">
+  <diagram name="vcore-sizing" id="o-PnvE5V5GR4_mMYqRfN">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="hfhF0G6AJRKOFH30sQVY-2" target="hfhF0G6AJRKOFH30sQVY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-2" value="API Monitoring" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="hfhF0G6AJRKOFH30sQVY-3" target="hfhF0G6AJRKOFH30sQVY-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="285" />
+              <mxPoint x="400" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-3" value="Jmeter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="260" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-4" value="Mule api" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hfhF0G6AJRKOFH30sQVY-5" target="hfhF0G6AJRKOFH30sQVY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-7" value="1. Initiate deployment to low tier&lt;br&gt;&amp;nbsp;env with reasonable vocre size" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hfhF0G6AJRKOFH30sQVY-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0145" y="1" relative="1" as="geometry">
+            <mxPoint x="4" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hfhF0G6AJRKOFH30sQVY-5" target="hfhF0G6AJRKOFH30sQVY-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="180" />
+              <mxPoint x="240" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-11" value="2.simulate peak load" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hfhF0G6AJRKOFH30sQVY-9" vertex="1" connectable="0">
+          <mxGeometry x="0.4162" y="1" relative="1" as="geometry">
+            <mxPoint x="39" y="-44" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="hfhF0G6AJRKOFH30sQVY-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="300" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="200" />
+              <mxPoint x="220" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-15" value="3. Monitor CPU and memory usage&lt;br&gt;and failed request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hfhF0G6AJRKOFH30sQVY-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2323" relative="1" as="geometry">
+            <mxPoint x="60" y="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hfhF0G6AJRKOFH30sQVY-5" target="hfhF0G6AJRKOFH30sQVY-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;strokeColor=#56dd1d;" parent="1" source="hfhF0G6AJRKOFH30sQVY-5" target="hfhF0G6AJRKOFH30sQVY-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="480" />
+              <mxPoint x="485" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-18" value="4. if Stable deployment try reduce vcore" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="hfhF0G6AJRKOFH30sQVY-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.0983" y="-1" relative="1" as="geometry">
+            <mxPoint x="52" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-5" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-19" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;* Un-deploy APIs based on lack of uage - can we get deployment_time, last usage time&lt;br&gt;&lt;/b&gt;* Make sure permissions for Client_id,secret-appropriate" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="600" width="670" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hfhF0G6AJRKOFH30sQVY-20" value="vCore" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;strokeWidth=3;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="260" y="550" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="OdURu2M3tcA_8JZ1PhIR" name="undeploy-unused">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-1" value="" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#E6E6E6;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="840" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.195;entryY=1.088;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="175" y="250" />
+              <mxPoint x="460" y="250" />
+              <mxPoint x="460" y="300" />
+              <mxPoint x="677" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-3" value="2. GET: https://anypoint.mulesoft.com/cloudhub/api/v2/applications/{appName}/dashboardStats" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="OUwij8vz0wM4q3k3bQo7-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.0418" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+              <mxPoint x="590" y="200" />
+              <mxPoint x="590" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-5" value="Get All APIs for 1 Environment" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;labelBackgroundColor=none;" parent="OUwij8vz0wM4q3k3bQo7-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.0349" y="4" relative="1" as="geometry">
+            <mxPoint x="133" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-6" value="1. GET:&amp;nbsp;https://anypoint.mulesoft.com/cloudhub/api/v2/applications" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" parent="OUwij8vz0wM4q3k3bQo7-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.0473" y="2" relative="1" as="geometry">
+            <mxPoint x="54" y="-58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="610" />
+              <mxPoint x="715" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-8" value="3 DELETE:&amp;nbsp;&amp;nbsp;https://anypoint.mulesoft.com/cloudhub/api/v2/applications/{appName}" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" parent="OUwij8vz0wM4q3k3bQo7-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.6295" relative="1" as="geometry">
+            <mxPoint x="196" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.029;entryY=0.487;entryDx=0;entryDy=0;exitX=0.996;exitY=0.675;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="375" y="446" as="sourcePoint" />
+            <mxPoint x="693.4999999999961" y="386.9850000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269" y="450" />
+              <mxPoint x="375" y="450" />
+              <mxPoint x="375" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-21" value="Confiirm Removal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" parent="OUwij8vz0wM4q3k3bQo7-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.4136" y="1" relative="1" as="geometry">
+            <mxPoint x="71" y="-74" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="389" y="460" />
+              <mxPoint x="389" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-9" value="Mnagement API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#E6E6E6;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="30" y="400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-10" value="Anypoint Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#E6E6E6;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="640" y="100" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-11" value="FOR-EACH API: get logs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-12" value="Set Query Params for last 1 month" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="280" y="260" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-13" value="List&amp;lt;&amp;lt;Apis&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="385" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-14" value="FOR-EACH filtered api in list: undeploy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="560" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-17" value="Undeploy - Unused Mule Api&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=24;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="225" y="40" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-19" value="API Owners 1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/users.svg;" parent="1" vertex="1">
+          <mxGeometry x="588.5" y="341.97" width="51.5" height="78.03" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-22" value="API Owners 2" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/users.svg;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="508.5" y="408.03" width="51.5" height="78.03" as="geometry" />
+        </mxCell>
+        <mxCell id="OUwij8vz0wM4q3k3bQo7-24" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Confiirm Removal&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="375" y="420" as="geometry">
+            <mxPoint x="41" y="63" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qjaV7Xo4oTRUQ0FFJiub-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qjaV7Xo4oTRUQ0FFJiub-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.667;exitY=-0.012;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="OUwij8vz0wM4q3k3bQo7-9" target="OUwij8vz0wM4q3k3bQo7-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="358" as="sourcePoint" />
+            <mxPoint x="280" y="378" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="350" />
+              <mxPoint x="320" y="350" />
+              <mxPoint x="320" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qjaV7Xo4oTRUQ0FFJiub-3" value="is Usage &amp;lt; MIN_THRESHOLD" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="qjaV7Xo4oTRUQ0FFJiub-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.4548" relative="1" as="geometry">
+            <mxPoint x="52" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qjaV7Xo4oTRUQ0FFJiub-4" value="check EXCEPTIONS list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="259.9999959216968" y="345" as="geometry">
+            <mxPoint x="-4" y="26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyY3MLWCoTYcC4aIQrCU-1" value="UAT - dont delete 30 days&lt;br&gt;&lt;br&gt;DEV,PREP - auto-delete&amp;nbsp; 10 days,10 days&lt;br&gt;&lt;br&gt;&amp;lt;&amp;lt;check into STOP /START vs un-deploying&amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt;have a way to deploy/START&amp;nbsp; though MULE for a group of APIs&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="550" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
