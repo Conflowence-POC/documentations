@@ -1,0 +1,11 @@
+Name:John Smith
+SSN:XXX-XX-6789
+DoB: Jan 1, 1990 
+Bank Account: #1234567890 
+Vendor:CompanyXYZ 
+Reason:for credit reporting purposes 
+Interface:XYZ
+TransactionDate:Dervived
+
+
+John Smith’s SSN:XXX-XX-6789, DoB: Jan 1, 1990 & Bank Account #1234567890 was shared with CompanyXYZ for credit reporting purposes on Apr. 23, 2024 at 4:00PM via InterfaceXYZ
